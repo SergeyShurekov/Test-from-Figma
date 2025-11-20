@@ -1,0 +1,735 @@
+body {
+  background-color: black;
+}
+
+p {
+  height: 120px;
+
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 7.2em;
+  line-height: 100%;
+  /* identical to box height, or 120px */
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+img {
+  height: 5.2em;
+
+  background: url(03);
+  border-radius: 160px;
+}
+
+/* Auto layout */
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 1920px;
+  position: absolute;
+  height: 480px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* string */
+
+/* Auto layout */
+.text-string {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+
+  height: 120px;
+}
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* белая береза */
+
+width: 838px;
+height: 120px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 100%;
+/* identical to box height, or 120px */
+text-align: center;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+/* White */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* image */
+
+width: 320px;
+height: 84px;
+
+background: url(03);
+border-radius: 160px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* string */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: baseline;
+padding: 0px;
+gap: 32px;
+
+width: 1824px;
+height: 120px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* под */
+
+width: 254px;
+height: 120px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 100%;
+/* identical to box height, or 120px */
+text-align: center;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+/* White */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* image */
+
+width: 360px;
+height: 84px;
+
+background: url(04);
+border-radius: 160px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* моим окном */
+
+width: 830px;
+height: 120px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 100%;
+/* identical to box height, or 120px */
+text-align: center;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+/* White */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* string */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: baseline;
+padding: 0px;
+gap: 32px;
+
+width: 1824px;
+height: 120px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* Принакрылась */
+
+width: 973px;
+height: 120px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 100%;
+/* identical to box height, or 120px */
+text-align: center;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+/* White */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* image */
+
+width: 160px;
+height: 84px;
+
+background: url(07);
+border-radius: 160px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* снегом */
+
+width: 479px;
+height: 120px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 100%;
+/* identical to box height, or 120px */
+text-align: center;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+/* White */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* string */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: baseline;
+padding: 0px;
+gap: 32px;
+
+width: 1824px;
+height: 120px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+/* точно */
+
+width: 403px;
+height: 120px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 100%;
+/* identical to box height, or 120px */
+text-align: center;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+/* White */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* image */
+
+width: 360px;
+height: 84px;
+
+background: url(07);
+border-radius: 160px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* серебром */
+
+width: 624px;
+height: 120px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 100%;
+/* identical to box height, or 120px */
+text-align: center;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+/* White */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/*все стили в экране
+/* block */
+
+position: relative;
+width: 1920px;
+height: 1080px;
+
+/* Black */
+background: #000000;
+
+/* footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+isolation: isolate;
+
+position: absolute;
+width: 1210px;
+height: 80px;
+left: calc(50% - 1210px / 2);
+top: 835px;
+
+/* line */
+
+position: absolute;
+width: 1210px;
+height: 0px;
+left: calc(50% - 1210px / 2);
+top: calc(50% - 0px / 2);
+
+/* White */
+border: 2px solid #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+
+/* button */
+
+width: 292px;
+height: 80px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+z-index: 1;
+
+/* body */
+
+position: absolute;
+width: 292px;
+height: 80px;
+left: 459px;
+top: 0px;
+
+/* White */
+background: #ffffff;
+
+/* Заказать звонок */
+
+position: absolute;
+width: 196px;
+height: 32px;
+left: 507px;
+top: 24px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-align: center;
+
+/* Black */
+color: #000000;
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 1824px;
+height: 480px;
+left: calc(50% - 1824px / 2);
+top: calc(50% - 480px / 2 - 41px);
+
+/* string */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: baseline;
+padding: 0px;
+gap: 32px;
+
+width: 1824px;
+height: 120px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* белая береза */
+
+width: 838px;
+height: 120px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 100%;
+/* identical to box height, or 120px */
+text-align: center;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+/* White */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* image */
+
+width: 320px;
+height: 84px;
+
+background: url(03);
+border-radius: 160px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* string */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: baseline;
+padding: 0px;
+gap: 32px;
+
+width: 1824px;
+height: 120px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* под */
+
+width: 254px;
+height: 120px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 100%;
+/* identical to box height, or 120px */
+text-align: center;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+/* White */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* image */
+
+width: 360px;
+height: 84px;
+
+background: url(04);
+border-radius: 160px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* моим окном */
+
+width: 830px;
+height: 120px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 100%;
+/* identical to box height, or 120px */
+text-align: center;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+/* White */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* string */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: baseline;
+padding: 0px;
+gap: 32px;
+
+width: 1824px;
+height: 120px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* Принакрылась */
+
+width: 973px;
+height: 120px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 100%;
+/* identical to box height, or 120px */
+text-align: center;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+/* White */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* image */
+
+width: 160px;
+height: 84px;
+
+background: url(07);
+border-radius: 160px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* снегом */
+
+width: 479px;
+height: 120px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 100%;
+/* identical to box height, or 120px */
+text-align: center;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+/* White */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* string */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: baseline;
+padding: 0px;
+gap: 32px;
+
+width: 1824px;
+height: 120px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+/* точно */
+
+width: 403px;
+height: 120px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 100%;
+/* identical to box height, or 120px */
+text-align: center;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+/* White */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* image */
+
+width: 360px;
+height: 84px;
+
+background: url(07);
+border-radius: 160px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* серебром */
+
+width: 624px;
+height: 120px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 100%;
+/* identical to box height, or 120px */
+text-align: center;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+
+/* White */
+color: #ffffff;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Тестовое задание */
+
+position: absolute;
+width: 1210px;
+height: 30px;
+left: calc(50% - 1210px / 2);
+top: 165px;
+
+font-family: "Golos Text";
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 125%;
+/* identical to box height, or 30px */
+text-align: center;
+
+/* White */
+color: #ffffff;
+
+opacity: 0.5;
