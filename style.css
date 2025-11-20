@@ -15,7 +15,6 @@ p {
 
 img {
   height: 5.2em;
-
   background: url(03);
   border-radius: 160px;
 }
@@ -27,13 +26,11 @@ footer {
   left: 50%;
   transform: translateX(-50%);
   bottom: 12.9cap;
-  width: 1210px;
-
+  width: 42vw;
   background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0) calc(50% - 1px),
-    rgb(255, 254, 254) calc(51%),
-    rgba(0, 0, 0, 0) calc(52% + 1px)
+    rgba(0, 0, 0, 0) calc(50% - 3px),
+    rgb(255, 254, 254) calc(49.5%),
+    rgba(0, 0, 0, 0) calc(52.5% + 3px)
   );
   height: fit-content;
 }
